@@ -3,7 +3,7 @@ name: 'GitHub Actions LZU Auto COVID Health Report'
 on:
   workflow_dispatch:  # Allow manual triggers
   schedule:
-    - cron: '0 23 * 1,2,7,8 *' # Schedule on CST 7 everyday during Jan. Feb. Jul. Aug.
+    - cron: '1 16 * * *' # Schedule on CST 7 everyday during Jan. Feb. Jul. Aug.
 
 jobs:
   bot:
